@@ -53,11 +53,16 @@ export const Description = styled.p`
 `;
 
 export const ReadMoreLink = styled(Link)`
+  background-color: #F44336;
+  border-radius: 4px;
+  color: #fff;
   display: flex;
+  font-weight: 600;
   align-items: center;
-  color: #1e90ff;
-  text-decoration: none;
+  justify-content: center;
   margin-top: 16px;
+  padding: 8px 16px;
+  text-decoration: none;
 
   svg {
     margin-left: 8px;

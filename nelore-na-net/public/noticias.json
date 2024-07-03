@@ -1,51 +1,25 @@
 [
   {
-    "title": "Notícia em Destaque 1",
-    "description": "Descrição da notícia em destaque 1.",
-    "imageUrl": "https://via.placeholder.com/300",
-    "slug": "noticia-em-destaque-1",
-    "category": "destaques"
+    "id": 1,
+    "titulo": "Diferenças entre a Raça Nelore Comum e a Nelore Pintado",
+    "descricao": "Entenda as principais diferenças entre as raças de gado Nelore comum e pintado.",
+    "conteudo": "A raça Nelore é uma das mais populares no Brasil, conhecida por sua adaptabilidade e resistência. Dentro desta raça, existem duas variações principais: o Nelore comum e o Nelore pintado. \n\nO Nelore comum possui uma coloração uniforme, geralmente branca ou cinza clara. Esta raça é altamente valorizada pela sua eficiência reprodutiva, facilidade de manejo e resistência a parasitas. O Nelore comum é amplamente utilizado na produção de carne devido à sua capacidade de ganho de peso rápido e boa conversão alimentar. \n\nPor outro lado, o Nelore pintado apresenta uma coloração diferenciada, com manchas pretas ou vermelhas distribuídas pelo corpo. Esta variação mantém muitas das características desejáveis do Nelore comum, como a resistência e a adaptabilidade, mas é especialmente apreciada pela sua estética única, que a torna uma escolha popular para exposições e leilões. Além disso, alguns criadores acreditam que o Nelore pintado pode apresentar uma maior heterose (vigor híbrido) quando utilizado em cruzamentos, resultando em animais mais robustos e produtivos. \n\nAmbas as variações do Nelore são extremamente importantes para a pecuária brasileira, oferecendo vantagens distintas que atendem a diferentes necessidades e preferências dos criadores.",
+    "categoria": "Agropecuária",
+    "slug": "diferencas-entre-nelore-comum-e-pintado",
+    "imagem": "https://d12ceyx7nhfnql.cloudfront.net/app/public/assets/articles/1672/large/data.?1623891397",
+    "copyImagem": "eRural",
+    "data": "2024-07-02",
+    "autor": "André Laurentino Rodrigues"
   },
   {
-    "title": "Notícia em Destaque 2",
-    "description": "Descrição da notícia em destaque 2.",
-    "imageUrl": "https://via.placeholder.com/300",
-    "slug": "noticia-em-destaque-2",
-    "category": "destaques"
-  },
-  {
-    "title": "Notícia Geral 1",
-    "description": "Descrição da notícia geral 1.",
-    "imageUrl": "https://via.placeholder.com/300",
-    "slug": "noticia-geral-1",
-    "category": "geral"
-  },
-  {
-    "title": "Notícia Geral 2",
-    "description": "Descrição da notícia geral 2.",
-    "imageUrl": "https://via.placeholder.com/300",
-    "slug": "noticia-geral-2",
-    "category": "geral"
-  },
-  {
-    "title": "Notícia em Destaque 3",
-    "description": "Descrição da notícia em destaque 3.",
-    "imageUrl": "https://via.placeholder.com/300",
-    "slug": "noticia-em-destaque-3",
-    "category": "destaques"
-  },
-  {
-    "title": "Notícia Geral 3",
-    "description": "Descrição da notícia geral 3.",
-    "imageUrl": "https://via.placeholder.com/300",
-    "slug": "noticia-geral-3",
-    "category": "geral"
-  },
-  {
-    "title": "Notícia Geral 4",
-    "description": "Descrição da notícia geral 4.",
-    "imageUrl": "https://via.placeholder.com/300",
-    "slug": "noticia-geral-4",
-    "category": "geral"
+    "id": 2,
+    "titulo": "Uso de Tecnologia IA para o Manejo de Bovinos Nelore",
+    "descricao": "Descubra como a inteligência artificial está revolucionando o manejo de bovinos da raça Nelore.",
+    "conteudo": "A utilização de tecnologia de inteligência artificial (IA) está trazendo uma revolução na pecuária, especialmente no manejo de bovinos da raça Nelore. Com a crescente demanda por eficiência e sustentabilidade, os criadores estão adotando soluções inovadoras para melhorar a gestão de seus rebanhos.\n\nUma das principais aplicações da IA no manejo de bovinos Nelore é a análise preditiva. Sensores e câmeras instalados nas fazendas coletam dados em tempo real sobre a saúde, comportamento e desenvolvimento dos animais. Esses dados são processados por algoritmos de IA que podem identificar padrões e prever problemas de saúde antes que se tornem graves, permitindo intervenções rápidas e precisas.\n\nAlém disso, a IA está sendo usada para otimizar a alimentação dos bovinos. Com base nos dados coletados, os sistemas de IA podem ajustar as dietas dos animais de forma personalizada, garantindo que cada bovino receba os nutrientes necessários para um crescimento saudável e eficiente. Isso não só melhora o bem-estar animal, mas também aumenta a produtividade e reduz os custos com alimentação.\n\nA tecnologia de IA também está facilitando a gestão reprodutiva. Algoritmos avançados podem prever os melhores momentos para inseminação, aumentando as taxas de sucesso e reduzindo o intervalo entre partos. Isso resulta em um aumento na produção de bezerros e na eficiência geral do rebanho.\n\nPor fim, a IA está transformando a rastreabilidade e a segurança alimentar. Com a capacidade de monitorar cada etapa da vida do bovino, desde o nascimento até o abate, os criadores podem garantir a qualidade e a segurança da carne que chega ao consumidor final. Isso é especialmente importante em um mercado cada vez mais exigente em termos de transparência e sustentabilidade.\n\nEm resumo, a inteligência artificial está se tornando uma ferramenta indispensável no manejo de bovinos Nelore, oferecendo benefícios significativos em termos de saúde animal, produtividade e sustentabilidade. À medida que a tecnologia avança, espera-se que sua aplicação na pecuária continue a crescer, trazendo ainda mais inovações para o setor.",
+    "categoria": "Tecnologia no Agro",
+    "slug": "uso-de-tecnologia-ia-para-manejo-de-bovinos-nelore",
+    "imagem": "https://cdn.pixabay.com/photo/2017/02/15/14/30/cow-2068851_1280.jpg",
+    "data": "2024-07-02",
+    "autor": "André Laurentino Rodrigues"
   }
 ]

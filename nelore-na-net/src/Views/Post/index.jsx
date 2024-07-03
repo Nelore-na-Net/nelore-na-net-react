@@ -1,53 +1,47 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
+import axios from "axios";
+import { ContentPost } from "./style";
 
 const Post = () => {
   const { slug } = useParams();
-  const [noticia, setNoticia] = useState(null);
-  const [loading, setLoading] = useState(true);
+  const [post, setPost] = useState(null);
+  const [error, setError] = useState(null);
 
   useEffect(() => {
-    const fetchNoticia = async () => {
-      try {
-        const response = await fetch("/noticias.json");
-        if (!response.ok) {
-          throw new Error("Erro ao carregar dados");
-        }
-        const data = await response.json();
-        const foundNoticia = data.find((item) => item.slug === slug);
-
-        if (foundNoticia) {
-          setNoticia(foundNoticia);
-          setLoading(false);
+    axios
+      .get("/noticias.json")
+      .then((response) => {
+        const postEncontrado = response.data.find((n) => n.slug === slug);
+        if (postEncontrado) {
+          setPost(postEncontrado);
         } else {
-          throw new Error("Notícia não encontrada");
+          setError("Notícia não encontrada.");
         }
-      } catch (error) {
-        console.error("Erro ao carregar notícia:", error);
-        setLoading(false);
-      }
-    };
-
-    fetchNoticia();
+      })
+      .catch((error) => {
+        console.error("Erro ao buscar a notícia:", error);
+        setError("Erro ao carregar a notícia. Tente novamente mais tarde.");
+      });
   }, [slug]);
 
-  if (loading) {
-    return <div>Carregando...</div>;
+  if (error) {
+    return <p>{error}</p>;
   }
 
-  if (!noticia) {
-    return <div>Notícia não encontrada.</div>;
+  if (!post) {
+    return <p>Carregando...</p>;
   }
 
   return (
-    <section>
+    <ContentPost>
       <article>
-        <h2>{noticia.title}</h2>
-        <img src={noticia.imageUrl} alt={noticia.title} />
-        <p>{noticia.description}</p>
-        <p>{noticia.content}</p>
+        <img src={post.imagem} alt={post.titulo} />
+        <small>Credito da imagem: {post.copyImagem}</small>
+        <h2>{post.titulo}</h2>
+        <p>{post.conteudo}</p>
       </article>
-    </section>
+    </ContentPost>
   );
 };
 

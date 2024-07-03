@@ -21,10 +21,10 @@ const Home = () => {
           {news.map((item, index) => (
             <Col key={index}>
               <NewsCard
-                image={item.imageUrl}
-                title={item.title}
-                description={item.description}
-                link={`post/${item.slug}`}
+                image={item.imagem}
+                title={item.titulo}
+                description={item.descricao}
+                link={`/post/${item.slug}`}
               />
             </Col>
           ))}

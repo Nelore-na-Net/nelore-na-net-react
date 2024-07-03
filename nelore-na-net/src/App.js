@@ -9,7 +9,7 @@ const App = () => {
     <Routes>
       <Route path="/" element={<Layout />}>
         <Route index element={<Home />} />
-        <Route path="/post/:slug" component={Post} />
+        <Route path="/post/:slug" element={<Post />} />
         <Route path="*" element={<Erro />} />
       </Route>
     </Routes>

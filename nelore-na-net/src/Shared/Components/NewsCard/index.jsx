@@ -1,6 +1,4 @@
-// src/components/NewsCard.js
 import React from 'react';
-import { FaRegNewspaper } from 'react-icons/fa';
 import {
   CardContainer,
   ImageContainer,
@@ -20,7 +18,7 @@ const NewsCard = ({ image, title, description, link }) => {
         <Title>{title}</Title>
         <Description>{description}</Description>
         <ReadMoreLink to={link}>
-          Leia mais <FaRegNewspaper />
+          Leia mais
         </ReadMoreLink>
       </ContentContainer>
     </CardContainer>
