@@ -1,14 +1,17 @@
 import styled from "styled-components";
 
 const ContainerMenu = styled.nav`
-  background-color: #f5f5f5;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  width: 100%;
 `;
 
 const ContentMenu = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 20px;
+  padding: 5px 20px;
 `;
 
 const LogoNeloreNaNet = styled.img`
@@ -50,6 +53,19 @@ const ListMenu = styled.ul`
   list-style: none;
   margin: 0;
   padding: 0;
+  li{
+    a{
+      color: #333;
+      display: block;
+      font-size: 16px;
+      font-weight: 600;
+      padding: 10px 20px;
+      text-decoration: none;
+      &:hover{
+        background-color: #ddd;
+      }
+    }
+  }
 `;
 
 export {
