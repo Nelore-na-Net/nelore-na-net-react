@@ -1,0 +1,51 @@
+[
+  {
+    "title": "Notícia em Destaque 1",
+    "description": "Descrição da notícia em destaque 1.",
+    "imageUrl": "https://via.placeholder.com/300",
+    "slug": "noticia-em-destaque-1",
+    "category": "destaques"
+  },
+  {
+    "title": "Notícia em Destaque 2",
+    "description": "Descrição da notícia em destaque 2.",
+    "imageUrl": "https://via.placeholder.com/300",
+    "slug": "noticia-em-destaque-2",
+    "category": "destaques"
+  },
+  {
+    "title": "Notícia Geral 1",
+    "description": "Descrição da notícia geral 1.",
+    "imageUrl": "https://via.placeholder.com/300",
+    "slug": "noticia-geral-1",
+    "category": "geral"
+  },
+  {
+    "title": "Notícia Geral 2",
+    "description": "Descrição da notícia geral 2.",
+    "imageUrl": "https://via.placeholder.com/300",
+    "slug": "noticia-geral-2",
+    "category": "geral"
+  },
+  {
+    "title": "Notícia em Destaque 3",
+    "description": "Descrição da notícia em destaque 3.",
+    "imageUrl": "https://via.placeholder.com/300",
+    "slug": "noticia-em-destaque-3",
+    "category": "destaques"
+  },
+  {
+    "title": "Notícia Geral 3",
+    "description": "Descrição da notícia geral 3.",
+    "imageUrl": "https://via.placeholder.com/300",
+    "slug": "noticia-geral-3",
+    "category": "geral"
+  },
+  {
+    "title": "Notícia Geral 4",
+    "description": "Descrição da notícia geral 4.",
+    "imageUrl": "https://via.placeholder.com/300",
+    "slug": "noticia-geral-4",
+    "category": "geral"
+  }
+]
