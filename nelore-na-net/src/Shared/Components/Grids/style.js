@@ -6,13 +6,19 @@ const Container = styled.div`
   width: 100%;
 `;
 
+const ContainerSlide = styled.div`
+  display: flex;
+  flex-direction: column;
+`;
+
 const RowNewsHome = styled.div`
   display: grid;
+  gap: 20px;
   grid-template-columns: repeat(auto-fit, minmax(390px, 1fr));
 `;
 
 const Col = styled.div`
-  padding: 20px;
+  padding: 20px 0;
 `;
 
-export { Container, RowNewsHome, Col };
+export { Container, ContainerSlide, RowNewsHome, Col };

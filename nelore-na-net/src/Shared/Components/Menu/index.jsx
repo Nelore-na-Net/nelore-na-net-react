@@ -2,8 +2,8 @@ import { Link } from 'react-router-dom'
 import NeloreNaNet from '../../../assets/imgs/logo-nelore-na-net.png'
 import { ButtonContainer, ContainerLinks, ContainerMenu, ContentMenu, ListMenu, LogoNeloreNaNet } from './style'
 
-const Menu = () =>{
-    return(
+const Menu = () => {
+    return (
         <ContainerMenu>
             <ContentMenu>
                 <Link to="/">
@@ -22,11 +22,21 @@ const Menu = () =>{
                             <Link to="/">Home</Link>
                         </li>
                         <li>
-                            <Link to="/sobre">Sobre</Link>
+                            <Link to="/historia">Conheça a raça</Link>
                         </li>
                         <li>
-                            <Link to="/contato">Contato</Link>
+                            <Link to="/cuidados">Cuidados</Link>
                         </li>
+                        <li>
+                            <Link to="/alimentacao">Alimentação</Link>
+                        </li>
+                        <li>
+                            <Link to="/reproducao">Reprodução</Link>
+                        </li>
+                        <li>
+                            <Link to="/galeria">Galeria</Link>
+                        </li>
+                        
                     </ListMenu>
                 </ContainerLinks>
             </ContentMenu>

@@ -8,7 +8,7 @@ const ContainerSidebar = styled.div`
   padding: 20px;
   h2{
     background-color: #eee;
-    border-left: 1px solid #F44336;
+    border-left: 4px solid #F44336;
     color: #333;
     font-size: 18px;
     margin-bottom: 20px;

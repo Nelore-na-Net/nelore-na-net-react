@@ -5,6 +5,7 @@ const ContainerMenu = styled.nav`
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   position: fixed;
   width: 100%;
+  z-index: 999;
 `;
 
 const ContentMenu = styled.div`

@@ -2,10 +2,11 @@ import { Outlet } from "react-router-dom";
 import Menu from "./Shared/Components/Menu";
 import styled from "styled-components";
 import Sidebar from "./Shared/Components/Sidebar";
+import Footer from "./Shared/Components/Footer";
 const LayoutContainer = styled.main`
   display: flex;
   flex-direction: column;
-  padding: 4rem 0;
+  padding: 6rem 0;
   @media (min-width: 768px) {
     flex-direction: row;
     gap: 2rem;
@@ -28,6 +29,7 @@ const Layout = () => {
         </Main>
         <Sidebar />
       </LayoutContainer>
+      <Footer />
     </section>
   );
 };
